@@ -44,8 +44,7 @@ def edit_headers(handles_list):
                 j+=1
             else:
                 fr.write(line)
-#RIGHT NOW, THE ID I WANT AS THE HEADER IS BEING ADDED TO THE FIRST LINE OF THE ALIGNMENT AND THE OLD HEADER IS NOT REPLACED...
-    #NEED TO FIGURE OUT HOW TO FIX THIS.
+
     handles.close()
 
     return new_headers
